@@ -1,0 +1,10 @@
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.navbar-links > h2 {
+  font-size: 18px;
+  margin: 0 10px;
+}

@@ -1,20 +1,36 @@
 .card {
   display: flex;
-  padding: 40px;
+  height: 100%;
+  margin: 20px;
   object-fit: contain;
-  max-width: 800px;
+  position: relative;
 }
-.card > a {
-  width: 100%;
+
+.card-left {
+  display: flex;
+  margin-bottom: 200px;
 }
+
+.card-right {
+  position: absolute;
+  display: flex;
+  right: 20px;
+  bottom: 10%;
+}
+
 .cardImage {
+  max-width: 500px;
+  min-width: 100px;
   object-fit: contain;
-  width: 60%;
+  width: 80%;
   border: 1px solid gray;
 }
 
 .card-text {
+  font-size: 80%;
+  align-items: center;
   padding: 20px;
   font-style: none;
   color: white !important;
+  margin: auto;
 }

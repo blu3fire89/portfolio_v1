@@ -1,15 +1,32 @@
 .porfolioCard {
-  background-color: rgb(0, 0, 0);
-  padding-top: 50px;
-  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.5rem;
+  column-gap: 1rem;
+  padding: 0 50px;
+  background-color: black;
+}
+
+.porfolioHeader {
   display: flex;
-  flex-direction: column;
+  padding: 20px;
+  align-items: center;
 }
-
-.porfolioCard-left > img {
-  float: left;
+.porfolioHeader > h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
-
-.porfolioCard-right {
-  align-self: flex-end;
+@media screen and (max-width: 1000px) {
+  .porfolioCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .porfolioCard {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+  .sitecard-image > img {
+    height: 50vh !important;
+  }
 }

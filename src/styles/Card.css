@@ -1,36 +1,68 @@
-.card {
-  display: flex;
-  height: 100%;
-  margin: 20px;
-  object-fit: contain;
+.sitecard {
+  background-color: black;
+  padding: 3px;
+}
+.sitecard-image {
   position: relative;
 }
 
-.card-left {
-  display: flex;
-  margin-bottom: 200px;
-}
-
-.card-right {
+.sitecard-image::before {
+  content: "";
   position: absolute;
-  display: flex;
-  right: 20px;
-  bottom: 10%;
+  top: 12px;
+  left: 15px;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+  background-color: white;
+  transform-origin: center;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  opacity: 0.6;
 }
 
-.cardImage {
-  max-width: 500px;
-  min-width: 100px;
-  object-fit: contain;
-  width: 80%;
-  border: 1px solid gray;
+.sitecard-image:hover::before {
+  transform: scale(1);
 }
 
-.card-text {
-  font-size: 80%;
-  align-items: center;
-  padding: 20px;
-  font-style: none;
-  color: white !important;
-  margin: auto;
+.sitecard-hoverItems {
+  list-style: none;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  padding: 1rem 2rem;
+  visibility: hidden;
+}
+
+.sitecard-image:hover > .sitecard-hoverItems {
+  transition: all 0.5s ease-in-out 0.3s;
+  visibility: visible;
+  top: 50%;
+}
+
+.sitecard-hoverItems > a > .MuiSvgIcon-root {
+  transition: all 0.1s ease-in-out 0.1;
+  font-size: 3rem;
+  color: #187bcd;
+  font-weight: 600;
+}
+
+.sitecard-hoverItems > a > .MuiSvgIcon-root:hover {
+  color: #1167b1;
+  cursor: pointer;
+}
+.sitecard-image > img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+.sitecard > h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.sitecard > p {
+  font-size: 1.1rem;
+  line-height: 1rem;
 }

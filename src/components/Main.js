@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Navbar from './Navbar';
 import PorfolioCard from './PorfolioCard';
+import Contact from './Contact';
 import '../styles/Main.css';
 
 
@@ -11,8 +12,7 @@ function Main() {
             <Navbar />
             <Header />
             <PorfolioCard />
-            {/* Contact */}
-                
+            <Contact />
         </div>
     )
 }

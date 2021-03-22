@@ -13,7 +13,7 @@ function PorfolioCard() {
             </div>
             <div className="porfolioCard">
                 <Card 
-                title="netflix"
+                title="netflix-clone"
                 description="this is a clone"
                 img="https://www.nxtbookmedia.com/wp-content/uploads/2014/06/netflix.png"
                 link="https://netflix-clone-e4682.web.app"
@@ -41,7 +41,7 @@ function PorfolioCard() {
                 />
 
                 <Card 
-                title="yelpcamp-clone"
+                title="yelpcamp"
                 description="this is a clone"
                 img="https://user-images.githubusercontent.com/41349472/47598483-35f7e780-d96a-11e8-98e3-53f2c6bdf20b.png"
                 link="https://aqueous-mesa-88537.herokuapp.com/"

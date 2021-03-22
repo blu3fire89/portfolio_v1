@@ -1,0 +1,15 @@
+.openModal {
+  color: white;
+  width: 100px;
+  background-color: red;
+}
+.sendEmailHeader-text {
+  margin-bottom: 50px;
+}
+.sendEmail-body {
+  display: flex;
+  flex-direction: column;
+}
+.MuiInput-root > input {
+  padding-top: 30px;
+}

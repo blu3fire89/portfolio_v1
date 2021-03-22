@@ -1,4 +1,5 @@
 import React from 'react';
+import SendEmail from './SendEmail';
 import '../styles/Contact.css';
 
 function Contact() {
@@ -17,7 +18,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contactBody-image">
-                    <h2>Click here!</h2>
+                    <SendEmail /> 
                 </div>
             </div>
         </div>

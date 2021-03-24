@@ -1,5 +1,6 @@
 import React from 'react';
 import SendEmail from './SendEmail';
+import FormSend from './FormSend';
 import '../styles/Contact.css';
 
 function Contact() {
@@ -18,7 +19,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contactBody-image">
-                    <SendEmail /> 
+                    <FormSend />
                 </div>
             </div>
         </div>

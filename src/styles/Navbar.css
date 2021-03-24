@@ -1,5 +1,6 @@
 .navbar {
   margin: 0 60px;
+  font-size: 0.6rem;
 }
 .navbar-links {
   display: flex;
@@ -8,6 +9,5 @@
 }
 
 .navbar-links > h2 {
-  font-size: 18px;
   margin: 0 10px;
 }

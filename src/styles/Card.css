@@ -1,6 +1,7 @@
 .sitecard {
   background-color: black;
   padding: 3px;
+  font-size: 1rem;
 }
 .sitecard-image {
   position: relative;
@@ -58,11 +59,11 @@
   object-fit: cover;
 }
 .sitecard > h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 700;
   line-height: 1.5rem;
 }
 .sitecard > p {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   line-height: 1rem;
 }

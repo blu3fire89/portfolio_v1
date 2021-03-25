@@ -28,14 +28,13 @@
   font-size: 4rem;
   font-weight: 700;
   padding-top: 90px;
-  padding-left: 60px;
+  padding-left: 10%;
 }
 .contactBody-text > p {
   font-size: 1.3rem;
   font-weight: 300;
-  padding-left: 60px;
+  padding-left: 10%;
   padding-top: 14px;
-  width: 300px;
 }
 .contactBody-text > p > span {
   color: #bbc3ed;
@@ -70,15 +69,47 @@
 
 .contact-body > .contactBody-image {
   background-color: #fafafa;
-  margin: 10px;
+  margin: auto 0;
 }
 
 .contactBody-image > h2 {
   padding: 210px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
+  .contact-body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .contact-body {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactBody-intro > span {
+    font-size: 3rem;
+  }
+  .contactBody-text > h2 {
+    font-size: 3rem;
+  }
+  .contactBody-text > p {
+    font-size: 1rem;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactBody-intro > span {
+    font-size: 2rem;
+  }
+  .contactBody-text > h2 {
+    font-size: 2rem;
+  }
+  .contactBody-text > p {
+    font-size: 0.8rem;
+    padding-left: 0;
   }
 }

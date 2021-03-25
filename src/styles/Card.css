@@ -77,3 +77,13 @@
 .sitecard-description > .MuiSvgIcon-root {
   padding-right: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .sitecard-image > img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .sitecard-image::before {
+    display: none;
+  }
+}

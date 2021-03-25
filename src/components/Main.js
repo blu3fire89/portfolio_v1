@@ -3,6 +3,7 @@ import Header from './Header';
 import Navbar from './Navbar';
 import PorfolioCard from './PorfolioCard';
 import Contact from './Contact';
+import Footer from './Footer';
 import '../styles/Main.css';
 
 
@@ -13,6 +14,7 @@ function Main() {
             <Header />
             <PorfolioCard />
             <Contact />
+            <Footer />
         </div>
     )
 }

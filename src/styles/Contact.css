@@ -8,7 +8,7 @@
   padding: 20px;
 }
 .contact-header > h2 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .contact-body {
   padding: 0 40px;
@@ -53,18 +53,18 @@
   line-height: 3rem;
   padding-left: 60px;
   padding-top: 50px;
-  color: #bbc3ed;
 }
-.contactBody-links > h2 {
+.contactBody-links > h2 > a {
+  text-decoration: none;
+  color: #bbc3ed;
   font-size: 1rem;
   width: 12%;
 }
 
-.linkedin-link:hover,
-.instagram-link:hover,
+.linkedin-link > a:hover,
+.github-link > a:hover,
 .contactBody-text > p > span:hover {
   color: #8489a3;
-  cursor: pointer;
 }
 
 .contact-body > .contactBody-image {

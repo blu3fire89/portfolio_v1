@@ -1,13 +1,25 @@
-.navbar {
+.navbar-text {
   margin: 0 60px;
   font-size: 0.6rem;
-}
-.navbar-links {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
 }
+.navbar-text > h2 {
+  font-size: 0.8rem;
+}
+.navbar-links {
+  display: flex;
+}
 
-.navbar-links > h2 {
+.navbar-links > h2 > a {
+  text-decoration: none;
+  color: white;
   margin: 0 10px;
+  font-size: 0.8rem;
+}
+.navbar > hr {
+  margin: 0 auto;
+  align-items: center;
+  width: 90%;
 }

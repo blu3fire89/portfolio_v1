@@ -46,7 +46,18 @@
   margin-bottom: 30px;
 }
 .formSubmit-button {
-  background-color: blue;
   height: 2.5rem;
   width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  .form-submitted > h1 {
+    text-align: center;
+    color: #bbc3ed;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .form-submitted > .MuiSvgIcon-root {
+    font-size: 2rem;
+  }
 }

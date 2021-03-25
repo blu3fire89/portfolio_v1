@@ -8,7 +8,7 @@ function PorfolioCard() {
         <div className="porfolio">
             <div className="porfolioHeader">
                 <ArrowRightIcon />
-                <h2>Portfolio</h2>
+                <h2 id="portfolio">Portfolio</h2>
                 
             </div>
             <div className="porfolioCard">

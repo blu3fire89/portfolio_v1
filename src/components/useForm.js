@@ -43,7 +43,7 @@ const useForm = (callback, validate) => {
         setErrors(validate(values));
         //send mail 
         if(canSubmit || Object.keys(errors).length === 0) {
-            //console.log("sending")
+            console.log("sending")
             emailjs.sendForm('service_sod8lvd', 'template_zz0wj7n', e.target, 'user_YIEC41iJegPpfaPFEMe7b')
             .then((result) => {
                 console.log(result.text);

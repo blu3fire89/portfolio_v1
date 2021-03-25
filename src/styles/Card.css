@@ -1,5 +1,5 @@
 .sitecard {
-  background-color: black;
+  background-color: #17181c;
   padding: 3px;
   font-size: 1rem;
 }
@@ -54,6 +54,7 @@
   cursor: pointer;
 }
 .sitecard-image > img {
+  min-height: 200px;
   width: 100%;
   height: 30vh;
   object-fit: cover;
@@ -62,8 +63,17 @@
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.5rem;
+  padding-bottom: 15px;
 }
-.sitecard > p {
+.sitecard-description {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.sitecard-description > p {
   font-size: 0.9rem;
   line-height: 1rem;
+}
+.sitecard-description > .MuiSvgIcon-root {
+  padding-right: 10px;
 }

@@ -43,7 +43,7 @@ function PorfolioCard() {
                 <Card 
                 title="yelpcamp"
                 description="vanillaJS, restful API, user auth, mongoDB, heroku"
-                img="https://user-images.githubusercontent.com/41349472/47598483-35f7e780-d96a-11e8-98e3-53f2c6bdf20b.png"
+                img="https://user-images.githubusercontent.com/22425638/58050093-0dd10f80-7b6c-11e9-87d6-fa2c7539bdcc.png"
                 link="https://aqueous-mesa-88537.herokuapp.com/"
                 />
             </div>

@@ -61,6 +61,10 @@ function FormSubmit({submitForm}) {
             <div className="form-submitted">
                 <CheckCircleIcon />
                 <h1>Message Sent!</h1>
+                <p>
+                    <span>Thank you for sending a message,</span>
+                    <span>You will be hearing from us shortly.</span> 
+                </p>
             </div>
             )}
         </React.Fragment>

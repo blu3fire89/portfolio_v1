@@ -5,8 +5,12 @@ function Header() {
     return (
         <div className="header">
             <div className="header-text">
-                <h2>To Web Development</h2>  
-                <h2>and beyond...</h2>
+                <h2>
+                    <span>A Simple Guy</span>
+                    <span>That does Web Design</span>    
+                    <span>As a <span className="headerText-hobby">Hobby</span></span>
+                </h2>  
+
             </div>
             
         </div>
